@@ -1,0 +1,69 @@
+.registerContainer {
+  box-sizing: border-box;
+}
+.registerContainer .login-title {
+  top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  font-family: "Courgette";
+  letter-spacing: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #f82541;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .registerContainer .login-title {
+    top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Courgette";
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #f82541;
+    text-transform: uppercase;
+    position: relative;
+  }
+}
+
+.registerContainer .loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerContainer .loginFormField {
+  display: flex;
+  position: relative;
+}
+.registerContainer .loginInputField {
+  padding-left: 40px;
+}
+.registerContainer .loginIcon {
+  position: absolute;
+  top: 9px;
+  font-size: 30px;
+  left: 5px;
+}
+.registerContainer .btn-default {
+  background: #f74159;
+  color: white;
+  float: right;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Courgette";
+  letter-spacing: 4px;
+}
+.registerContainer .loginForm .error {
+  background: #f10020;
+  height: 48px;
+  width: 8px;
+  border-radius: 2px;
+  color: #f10020;
+}

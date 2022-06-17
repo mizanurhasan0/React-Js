@@ -1,0 +1,43 @@
+.pageApp {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+  background-color: #b3e3ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}

@@ -1,0 +1,102 @@
+.AppAuth {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.AuthBox {
+  height: auto;
+  width: 550px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  /* left: 10%; */
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -60%);
+  /* color: white; */
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(39, 39, 39);
+}
+.AuthBox input {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.AuthBox img {
+  height: 70px;
+  width: 70px;
+  margin-top: -50px;
+  left: calc(50% - 25px);
+  position: absolute;
+}
+.AuthBox h1 {
+  text-align: center;
+  margin: 20px;
+  color: #b9a274;
+}
+.AuthBox label {
+  color: #139ff7;
+}
+.AuthBox .inputField {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #139ff7;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background: transparent;
+}
+.AuthBox .actionButton {
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  color: black;
+  background-color: #f1cc24;
+  width: 100%;
+  margin-top: 30px;
+}
+.AuthBox .actionButton:hover {
+  background-color: #ffb120;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+
+.OptionalUserButton {
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
+
+  width: 100%;
+  outline: none;
+  border: none;
+  background: white;
+  font-size: 20px;
+  letter-spacing: 10px;
+
+  transition: all 0.5s ease;
+}
+.OptionalUserButton:hover {
+  color: #139ff7;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .AuthBox {
+    height: 550px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(39, 39, 39);
+  }
+}
+.errorMessage {
+  float: right;
+  color: #c53430;
+  text-transform: capitalize;
+}

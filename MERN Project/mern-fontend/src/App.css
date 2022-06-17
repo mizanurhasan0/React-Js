@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(120, 236, 169);
+  align-items: center;
+  place-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+.inputs input {
+  padding: 20px;
+  margin: 5px;
+  border: none;
+}
+.inputs button {
+  background-color: rgb(53, 161, 53);
+  height: 40px;
+  width: 170px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+.listOfFriend {
+  margin-top: 20px;
+}
+.listOfFriend h2 {
+  border-bottom: 2px solid rgb(53, 161, 53);
+  color: rgb(53, 161, 53);
+}
+.friendContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.friend {
+  background-color: rgb(53, 161, 53);
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  width: 300px;
+}
+.friend h3 {
+  margin-left: 10px;
+}
+.friend h3 strong {
+  text-transform: uppercase;
+}
+
+.friendContainer button {
+  height: 70px;
+  margin-right: 2px;
+}
+.friendContainer .updateBtn {
+  border: 2px solid rgb(53, 161, 53);
+  color: rgb(53, 161, 53);
+  cursor: pointer;
+  font-size: 20px;
+}
+.friendContainer .removeBtn {
+  border: 2px solid red;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+}

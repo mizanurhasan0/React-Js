@@ -1,0 +1,192 @@
+.ViewApp {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+.listOfCard {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+.card {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px;
+}
+.card h2 {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.card .cardInfo {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 0 10px 0px 10px;
+}
+
+.card img {
+  height: 190px;
+  width: 190px;
+  border: 1px solid rgb(153, 153, 153);
+  margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .card img {
+    height: 120px;
+    width: 120px;
+
+    margin-bottom: 40px;
+  }
+}
+.card .cardInfo .userInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card .cardInfo .userInfo div {
+  display: flex;
+  padding: 5px 0 10px 0;
+}
+.card .cardInfo .userInfo div span {
+  padding: 0 15px 0 0;
+  font-size: 20px;
+  color: #444;
+}
+.card .cardInfo .userInfo .edit {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.card .cardInfo .userInfo .edit i {
+  float: right;
+  font-size: 30px;
+  color: #50bbfd;
+  padding: 0 10px 0 0;
+  cursor: pointer;
+  /* position: absolute; */
+  bottom: 5px;
+}
+/* Card 2 */
+.card2 .cardInfo .userInfo .headerExperience {
+  display: flex;
+  justify-content: space-between;
+}
+.card2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px;
+}
+.card2 h2 {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.card2 .cardInfo {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 0 10px 0 10px;
+}
+
+.card2 .cardInfo .userInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card2 .cardInfo .userInfo div {
+  display: flex;
+  padding: 5px 0 10px 0;
+}
+
+.card2 .cardInfo .userInfo .edit {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.card2 .cardInfo .userInfo .edit i {
+  float: right;
+  font-size: 30px;
+  color: #50bbfd;
+  padding: 0 10px 0 0;
+  cursor: pointer;
+  bottom: 5px;
+}
+
+/*  */
+
+.card3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px;
+  padding: 0 10px 5px 10px;
+}
+.card3 h2 {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.card3 .cardInfo .userInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card3 .cardInfo .userInfo .edit {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.card3 .cardInfo .userInfo .edit i {
+  float: right;
+  font-size: 30px;
+  color: #50bbfd;
+  cursor: pointer;
+}
+/*  */
+
+.card4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px;
+  padding: 0 10px 5px 10px;
+}
+.card4 h2 {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.card4 .cardInfo .userInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card4 .cardInfo .userInfo .edit {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.card4 .cardInfo .userInfo .edit i {
+  float: right;
+  font-size: 30px;
+  color: #50bbfd;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .listOfCard {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+}

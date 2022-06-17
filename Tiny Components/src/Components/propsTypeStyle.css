@@ -1,0 +1,20 @@
+.propsApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+}
+.person {
+  border: 2px solid black;
+  border-radius: 20px;
+  background: #b3e3ff;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+.person ul {
+  list-style: none;
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e79443e.css",
+    "main.js": "/static/js/main.041debb9.js",
+    "static/media/banner.jpg": "/static/media/banner.536dce58693eb9058acf.jpg",
+    "static/media/guyerchair.jpg": "/static/media/guyerchair.d96eb4271d732b692e87.jpg",
+    "static/media/table.jpg": "/static/media/table.0ac21074d432a3bbc4e2.jpg",
+    "static/media/insidehome.jpg": "/static/media/insidehome.fa9a542f53552a04a278.jpg",
+    "static/media/guyerchair2.jpg": "/static/media/guyerchair2.0a9d2e22b35f675448a8.jpg",
+    "index.html": "/index.html",
+    "main.9e79443e.css.map": "/static/css/main.9e79443e.css.map",
+    "main.041debb9.js.map": "/static/js/main.041debb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e79443e.css",
+    "static/js/main.041debb9.js"
+  ]
+}

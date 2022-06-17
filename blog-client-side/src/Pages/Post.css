@@ -1,0 +1,99 @@
+.postPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.leftSide {
+  flex: 50%;
+  height: calc(100vh - 70px);
+  display: grid;
+  place-items: center;
+}
+
+.rightSide {
+  flex: 50%;
+  height: calc(100vh - 70px);
+}
+
+#individual {
+  height: 500px;
+  width: 600px;
+  border: 1px solid #0088a9;
+  border-radius: 10px;
+  box-shadow: 5px 10px 1px 1px rgba(158, 159, 160, 0.507);
+}
+
+#individual .postTitle,
+#individual .postFooter {
+  font-size: 30px;
+}
+#individual .postTitle {
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+  text-align: center;
+}
+#individual .body {
+  font-size: 25px;
+  height: 83%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#individual .postFooter {
+  margin-top: 10px;
+  background: #0088a9;
+  display: block;
+  text-align: center;
+}
+.rightSide h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(76, 0, 255, 0.651);
+}
+
+.commentSection {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+.commentSection input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  color: #0088a9;
+}
+.commentSection button {
+  width: 100%;
+}
+
+.listOfComments {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+.listOfComments .comnent {
+  padding: 20px;
+  border: 1px solid #0088a9;
+  margin-bottom: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.listOfComments .comnent:hover {
+  background-color: #0087a948;
+}
+.listOfComments .btn-delete {
+  background-color: rgb(97, 54, 54);
+  align-items: right;
+  text-align: right;
+  justify-content: right;
+  cursor: pointer;
+}

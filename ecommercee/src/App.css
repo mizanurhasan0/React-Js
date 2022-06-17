@@ -1,0 +1,37 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "font-awesome/css/font-awesome.min.css";
+
+@font-face {
+  font-family: "Courgette";
+  src: url(./Fonts/Courgette-Regular.ttf);
+}
+@font-face {
+  font-family: "Shizuru";
+  src: url(./Fonts/Shizuru-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 100vh; */
+}
+@media (max-width: 580px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+  }
+}
+.Toastify__toast-body > div:last-child {
+  background: rgb(248, 65, 65);
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  font-family: "Courgette";
+}

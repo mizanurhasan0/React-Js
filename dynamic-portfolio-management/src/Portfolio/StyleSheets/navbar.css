@@ -1,0 +1,117 @@
+.navheader {
+  height: 50px;
+  background: white;
+  box-shadow: 0px 0px 20px 1px rgb(180, 173, 245);
+}
+.navheader img {
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  margin-left: 20px;
+  color: red;
+  background: #f0d042;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 1px #ada275;
+}
+.navheader ul {
+  float: right;
+}
+.navheader ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 13px 7px;
+}
+.navheader ul .navDashboard {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.navheader ul .navDashboard a {
+  background: #f0d042;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  color: rgb(88, 87, 87);
+  transition: all 0.3s;
+}
+.navheader ul .navDashboard a:hover {
+  background: #f7e07d;
+  color: rgb(43, 42, 42);
+  transition: all 0.3s;
+}
+.navheader ul li a {
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.navheader ul li a:hover {
+  color: #7a6a21;
+}
+.navheader ul li a::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #f0d042;
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 0.3s linear;
+}
+.navheader ul li a:hover::before {
+  transform: scale(1);
+  transform-origin: left;
+}
+.navheader #bars,
+.navheader #cancel {
+  float: right;
+  font-size: 30px;
+  color: #f0d042;
+  line-height: 50px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: none;
+}
+#checkbar {
+  display: none;
+}
+@media (max-width: 774px) {
+  .navheader label #bars {
+    display: block;
+  }
+  .navheader ul {
+    background: rgb(238, 237, 237);
+    position: absolute;
+    top: 50px;
+
+    width: 100%;
+
+    text-align: center;
+    left: -100%;
+    transition: all 0.3s ease;
+  }
+  .navheader ul li:last-child {
+    margin-left: 0;
+  }
+  .navheader ul li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    left: -100px;
+  }
+  .navheader ul li a {
+    color: black;
+  }
+  .navheader #checkbar:checked ~ ul {
+    left: 0px;
+  }
+  #checkbar:checked ~ label #bars {
+    display: none;
+  }
+  #checkbar:checked ~ label #cancel {
+    display: block;
+    color: rgb(252, 127, 127);
+  }
+}

@@ -1,0 +1,55 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+
+.aboutContainer .team4 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.aboutContainer .team4 h1,
+.aboutContainer .team4 h2,
+.aboutContainer .team4 h3,
+.aboutContainer .team4 h4,
+.aboutContainer .team4 h5,
+.aboutContainer .team4 h6 {
+  color: #3e4555;
+}
+
+.aboutContainer .team4 .font-weight-medium {
+  font-weight: 500;
+}
+
+.aboutContainer .team4 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.aboutContainer .team4 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.aboutContainer .team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.aboutContainer .team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  color: #316ce8;
+}
+.aboutContainer .aboutImage {
+  height: 300px;
+}
+
+@media (max-width: 1000px) {
+  .personalImage {
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.shortField {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.shortField .ReligionField {
+  width: 100%;
+  margin-right: 20px;
+}
+.shortField .GenderField {
+  width: 100%;
+  margin-right: 20px;
+}
+.shortField .inputField {
+  width: 100%;
+}

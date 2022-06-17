@@ -1,0 +1,72 @@
+.CreatePostApp {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CreateBox {
+  height: 450px;
+  width: 350px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+}
+.CreateBox input {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.CreateBox img {
+  height: 70px;
+  width: 70px;
+  margin-top: -50px;
+  left: calc(50% - 25px);
+  position: absolute;
+}
+.CreateBox h1 {
+  text-align: center;
+  margin: 20px;
+}
+.CreateBox label {
+  color: rgba(221, 221, 221, 0.582);
+}
+.CreateBox .inputField {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  background: transparent;
+}
+.CreateBox button {
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  color: black;
+  background-color: #50e6ff;
+  width: 100%;
+}
+.CreateBox button:hover {
+  background-color: #ffb120;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+.CreateBox .link {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  padding-top: 40px;
+  transition: all 0.3s;
+}
+.CreateBox .link:hover {
+  color: #ffb120;
+}

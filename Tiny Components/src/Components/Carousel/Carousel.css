@@ -1,0 +1,62 @@
+.carouselApp {
+  height: 100vh;
+  width: 100vw;
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  width: 60%;
+  height: 600px;
+  background-color: black;
+}
+.innerCarousel {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.innerCarousel .left {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+.innerCarousel .center {
+  flex: 90%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.innerCarousel .right {
+  flex: 5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 0px;
+  margin-bottom: 10%;
+}
+p {
+  font-size: 2rem;
+}
+h1,
+p {
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+.notFoundContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(36, 36, 37, 0.671);
+  text-align: center;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.notFoundContainer h2 {
+  margin-top: 20px;
+  padding: 30px;
+}
+.notFoundContainer .link {
+  list-style: none;
+  text-decoration: none;
+  font-style: italic;
+}
+.notFoundContainer .link:hover {
+  color: rgb(0, 0, 0);
+}
